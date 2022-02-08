@@ -1,7 +1,7 @@
 # Личный проект «Что посмотреть»
 
 * Студент: [Алексей Ситкевич](https://up.htmlacademy.ru/react/9/user/1234317).
-* Наставник: [Игорь Казанцев] (https://htmlacademy.ru/profile/id572311).
+* Наставник: [Игорь Казанцев](https://htmlacademy.ru/profile/id572311).
 
 ---
 
