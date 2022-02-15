@@ -1,5 +1,7 @@
+import MainPageComponent from '../main-page/main-page.tsx';
+
 function App(): JSX.Element {
-  return <p>Hello, world!</p>;
+  return <MainPageComponent/>;
 }
 
 export default App;
