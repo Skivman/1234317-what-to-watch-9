@@ -1,5 +1,6 @@
 import FilmCard from '../film-card/film-card';
 
+
 export default function MainPageComponent(): JSX.Element{
   return (
     <body>
@@ -133,6 +134,24 @@ export default function MainPageComponent(): JSX.Element{
           </ul>
 
           <div className="catalog__films-list">
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
+            <FilmCard/>
             <FilmCard/>
             <FilmCard/>
           </div>
