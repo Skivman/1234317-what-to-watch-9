@@ -1,7 +1,12 @@
 import FilmCard from '../film-card/film-card';
 
+type MainPageProps = {
+  filmTitle: string,
+  filmGenre: string,
+  filmYear: number,
+}
 
-export default function MainPageComponent(): JSX.Element{
+export default function MainPage({filmTitle, filmGenre, filmYear}: MainPageProps): JSX.Element{
   return (
     <body>
       <div className="visually-hidden">
@@ -71,10 +76,10 @@ export default function MainPageComponent(): JSX.Element{
             </div>
 
             <div className="film-card__desc">
-              <h2 className="film-card__title">The Grand Budapest Hotel</h2>
+              <h2 className="film-card__title">{filmTitle}</h2>
               <p className="film-card__meta">
-                <span className="film-card__genre">Drama</span>
-                <span className="film-card__year">2014</span>
+                <span className="film-card__genre">{filmGenre}</span>
+                <span className="film-card__year">{filmYear}</span>
               </p>
 
               <div className="film-card__buttons">

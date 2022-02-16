@@ -1,7 +1,15 @@
-import MainPageComponent from '../main-page/main-page';
+import MainPage from '../main-page/main-page';
 
-function App(): JSX.Element {
-  return <MainPageComponent/>;
+type AppMainPageProps = {
+  filmTitle: string,
+  filmGenre: string,
+  filmYear: number,
+}
+
+function App({filmTitle, filmGenre, filmYear}: AppMainPageProps): JSX.Element {
+  return (
+    <MainPage filmTitle={filmTitle} filmGenre={filmGenre} filmYear={filmYear}/>
+  );
 }
 
 export default App;
