@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function MoviePage(): JSX.Element{
   return (
     <section className="film-card film-card--full">
@@ -86,9 +87,9 @@ export default function MoviePage(): JSX.Element{
             </div>
 
             <div className="film-card__text">
-              <p>In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege.</p>
+              <p>In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave&#39s friend and protege.</p>
 
-              <p>Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.</p>
+              <p>Gustave prides himself on providing first-class service to the hotel&#39s guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave&#39s lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.</p>
 
               <p className="film-card__director"><strong>Director: Wes Anderson</strong></p>
 
