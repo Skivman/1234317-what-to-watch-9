@@ -1,4 +1,4 @@
-import MainPage from '../main-page/main-page';
+import MainPage from '../main-page/MainPage';
 
 type AppMainPageProps = {
   filmTitle: string,
